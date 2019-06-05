@@ -35,6 +35,9 @@ function show_business_content() {
   //Pass arguments to query function
   query_posts( $args );
 
+  //echo the title
+  echo '<h1>Business Content</h1>';
+
   //Check for post to show "Check back later" message
   if ( have_posts() ) :
     //Query has posts
