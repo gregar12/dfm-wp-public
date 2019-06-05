@@ -83,6 +83,11 @@ class DFM_WP_Public {
 		if ( is_admin() ) {
 			// Include dependencies
 			//require_once( $this->plugin_path . 'includes/class-something.php' );
+			require_once( $this->plugin_path . 'includes/class-sports.php' );
+			require_once( $this->plugin_path . 'includes/class-animals.php' );
+			require_once( $this->plugin_path . 'includes/class-business.php' );
+			require_once( $this->plugin_path . 'includes/class-entertainment.php' );
+			require_once( $this->plugin_path . 'includes/class-world-news.php' );
 		}
 	}
 
